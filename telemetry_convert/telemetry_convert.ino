@@ -159,8 +159,6 @@ void decodeMLink(byte data1, byte data2, byte data3) {
 			vario = value*10;
 			_debugSerial.print("    Got vario: ");
 			_debugSerial.print(value);
-			/*_debugSerial.print(".");
-			_debugSerial.print(value % 10);*/
 			_debugSerial.println();
 		} else if (dataType == 4) { // speed 0.1km/h
 			speed=value/10;
@@ -196,7 +194,7 @@ void decodeMLink(byte data1, byte data2, byte data3) {
 	}
 	
 	
-	// Sending value 0x8000 means: No value delivered by sensor (keeps last value)
+	// Sending value 0x8000 means: No value delivered by sensor (keeps last value)!?
 	
 }
 
