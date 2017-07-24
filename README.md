@@ -13,7 +13,7 @@ Currently only Multiplex M-Link is supported as input. If you would like to exte
 
 If you use the unilog2 please make sure to configure telmetry protocol as autodetect.
 
-You can find a description of the FrSky S.Port protocol here: https://code.google.com/p/telemetry-convert/wiki/FrSkySPortProtocol
+You can find a description of the FrSky S.Port protocol here: [FrSkySPortProtocol](FrSkySPortProtocol.md)
 
 Converter board: [Teensy 3.0](http://www.pjrc.com/store/teensy3.html) (cheap and powerful, can be programmed in arduino environment)
 
